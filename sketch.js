@@ -15,8 +15,8 @@ function setup() {
 
 function mousePressed() {
     //createP('My favorite color is purple.');
-    h2.html("Now I'll show you my favorite numbers");
-    para = createP('My favorite number is   ' + random(1, 10));
+    h2.html("Now I'll not show you my favorite numbers");
+    para = createP('My favorite number is not ' + random(1, 10));
   }
 
 // function draw() {
